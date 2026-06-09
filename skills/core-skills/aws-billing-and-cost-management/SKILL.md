@@ -1,13 +1,6 @@
 ---
 name: aws-billing-and-cost-management
-description: |
-  Analyze AWS costs, find savings, manage budgets, evaluate Savings Plans and
-  Reserved Instances, right-size EC2/Lambda/RDS/EBS with Compute Optimizer,
-  look up service pricing, query CUR with Athena, detect cost anomalies,
-  scope costs to billing views, and monitor Free Tier usage. Triggers on:
-  AWS bill, cost analysis, reduce spend, savings plan, reserved instance,
-  right-size, budget alert, cost optimization, pricing, free tier, cost
-  anomaly, CUR, cost audit, billing view, billing view ARN.
+description: 'Live AWS cost analysis/optimization: Cost Explorer, cost audits, CUR-via-Athena, Budgets+alerts, anomaly detection, Savings Plans/RI evaluation, Compute Optimizer right-sizing (EC2/Lambda/RDS/EBS), pricing lookup, billing-view scoping, Free Tier. Skip pricing-page-only math, other clouds.'
 version: 1
 ---
 

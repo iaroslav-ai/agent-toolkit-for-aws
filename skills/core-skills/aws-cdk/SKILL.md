@@ -1,6 +1,6 @@
 ---
 name: aws-cdk
-description: Authors, deploys, and troubleshoots AWS infrastructure using CDK with TypeScript or Python. Covers best practices, stack architecture, and construct patterns. Always use when writing CDK constructs, bootstrapping environments, running cdk deploy/synth/diff, fixing CDK or CloudFormation errors, planning stack structure, importing existing resources, resolving drift, or refactoring stacks without resource replacement.
+description: 'AWS CDK (TS/Py): synth/deploy/diff/bootstrap, constructs, multi-stack + cross-stack refs, asset bundling, resource import, drift, refactor-no-replace, rollback-recover, v1->v2 mig. Skip raw CFN/SAM authoring, Amplify, Terraform.'
 version: 1
 ---
 

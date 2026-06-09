@@ -1,6 +1,6 @@
 ---
 name: aws-containers
-description: Deploys and operates containerized workloads on ECS, Fargate, and ECR. Covers task definitions, Fargate services, ECR repository setup and lifecycle policies, ECS Exec debugging, service scaling, deployment strategies, load balancer integration, and logging configuration. Use when deploying, debugging, or optimizing containers on AWS. ALSO USE for container deployment options (ECS vs ECS Express Mode), networking modes, health check troubleshooting, OOM errors, secrets injection, blue/green deployments, ECR image management, and App Runner sunset guidance and migration. NOT for Kubernetes, EKS, or CI/CD pipelines.
+description: 'ECS/Fargate/ECR: task defs, services, ALB, autoscaling, Service Connect, ECS Exec, secrets injection, blue/green, ECR lifecycle/cross-account pulls, health-check/OOM/pull-error debug, ECS-vs-Express, App Runner mig. Skip EKS/Kubernetes, plain Dockerfile, CI/CD, Lambda container images.'
 version: 1
 allowed-tools: [Read]
 ---

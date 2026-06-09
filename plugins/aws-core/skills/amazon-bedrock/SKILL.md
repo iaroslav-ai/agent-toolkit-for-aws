@@ -1,6 +1,6 @@
 ---
 name: amazon-bedrock
-description: Builds generative AI applications on Amazon Bedrock. Covers model invocation (Converse API, InvokeModel), RAG with Knowledge Bases, Bedrock Agents, Guardrails, and AgentCore. Use when invoking models, setting up Knowledge Bases, creating agents, applying guardrails, deploying to AgentCore, troubleshooting Bedrock errors (ThrottlingException, AccessDeniedException), or choosing models (Claude, Llama, Nova, Titan). ALSO USE for prompt caching setup and debugging, quota health checks and throttling diagnosis, cost attribution and tracking, migrating between Claude model generations (4.5 to 4.6 to 4.7), chunking strategies, API selection (Converse vs InvokeModel), guardrail capabilities, and model selection. NOT for custom model training, Rekognition, or Comprehend.
+description: 'Amazon Bedrock GenAI: Converse/InvokeModel, Knowledge Base RAG+chunking, Agents, Guardrails, AgentCore deploy, prompt caching, quota/throttling, cost attribution, model choice (Claude/Llama/Nova/Titan), Claude-gen migration. Skip model training, Rekognition, Comprehend.'
 version: 1
 ---
 

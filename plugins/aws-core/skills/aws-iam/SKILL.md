@@ -1,10 +1,6 @@
 ---
 name: aws-iam
-description: "Verified corrections for IAM behaviors that AI agents frequently get\
-  \ wrong \u2014 policy evaluation edge cases, trust policy gotchas, STS session limits,\
-  \ Organizations quirks, and SAML/MFA specifics. Use alongside documentation when\
-  \ working with IAM roles, policies, STS, or Organizations. Do NOT use for non-IAM\
-  \ authorization like Cognito user-pool policies or app-level RBAC."
+description: 'Verified IAM/STS/Organizations edge cases agents get wrong: eval order (explicit deny, wildcards), trust policies (external ID, confused deputy), STS session/role-chaining limits, opt-in-region AssumeRole, SCP vs resource/identity conflicts, perm boundaries, SAML/MFA, PassRole escalation. Skip basic policy authoring, AccessDenied, Cognito, app RBAC.'
 version: 1
 ---
 
